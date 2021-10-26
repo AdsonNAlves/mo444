@@ -1,0 +1,37 @@
+2021-10-26 14:31:33.887010 epoch=1 train_score=0.2625 eval_score=0.2938 
+
+2021-10-26 14:33:08.241139 epoch=2 train_score=0.3795 eval_score=0.4182 
+
+2021-10-26 14:34:44.939865 epoch=3 train_score=0.4383 eval_score=0.4365 
+
+2021-10-26 14:36:24.600998 epoch=4 train_score=0.4593 eval_score=0.4534 
+
+2021-10-26 14:38:06.098007 epoch=5 train_score=0.4734 eval_score=0.4576 
+
+2021-10-26 14:39:49.465127 epoch=6 train_score=0.4835 eval_score=0.4663 
+
+2021-10-26 14:41:31.156758 epoch=7 train_score=0.4933 eval_score=0.4679 
+
+2021-10-26 14:43:14.591930 epoch=8 train_score=0.5054 eval_score=0.4795 
+
+2021-10-26 14:44:58.863662 epoch=9 train_score=0.5140 eval_score=0.4862 
+
+2021-10-26 14:46:43.244310 epoch=10 train_score=0.5217 eval_score=0.4877 
+
+2021-10-26 14:48:29.210107 epoch=11 train_score=0.5302 eval_score=0.4951 
+
+2021-10-26 14:50:15.228038 epoch=12 train_score=0.5363 eval_score=0.4961 
+
+2021-10-26 14:52:00.852663 epoch=13 train_score=0.5401 eval_score=0.4964 
+
+2021-10-26 14:53:45.500861 epoch=14 train_score=0.5471 eval_score=0.4942 
+
+2021-10-26 14:55:27.176788 epoch=15 train_score=0.5494 eval_score=0.4982 
+
+2021-10-26 14:57:13.252561 epoch=16 train_score=0.5543 eval_score=0.4980 
+
+2021-10-26 14:58:56.469829 epoch=17 train_score=0.5542 eval_score=0.4991 
+
+2021-10-26 15:00:43.427132 epoch=18 train_score=0.5600 eval_score=0.4991 
+
+2021-10-26 15:02:27.155466 epoch=19 train_score=0.5598 eval_score=0.4994 
