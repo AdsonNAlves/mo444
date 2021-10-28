@@ -167,7 +167,6 @@ def main_worker(gpu, args):
         eval_score = evaluate(eval_loader, model, args)
 
         with open(os.path.join(args.output, 'log.log'), 'a') as f:
-            f.write('\n')
             f.write(str(datetime.datetime.now()))
             f.write(' epoch=%d ' % epoch+1)
             f.write('train_score=%.4f ' % train_score)
