@@ -1,0 +1,107 @@
+optim: adamax lr=0.0010, decay_step=2, decay_rate=0.25,grad_clip=0.25
+LR decay epochs: 15,17,19
+gradual warmup lr: 0.0005
+optim: adamax lr=0.0010, decay_step=2, decay_rate=0.25,grad_clip=0.25
+LR decay epochs: 15,17,19
+gradual warmup lr: 0.0005
+epoch 0, time: 115.95
+	train_loss: 11.00, norm: 30.9551, score: 40.90
+	eval score: 45.12 (100.00)
+	entropy:  2.14
+gradual warmup lr: 0.0010
+epoch 1, time: 121.44
+	train_loss: 3.76, norm: 7.8079, score: 45.34
+	eval score: 45.31 (100.00)
+	entropy:  1.96
+gradual warmup lr: 0.0015
+epoch 2, time: 124.06
+	train_loss: 3.58, norm: 5.9973, score: 47.29
+	eval score: 46.87 (100.00)
+	entropy:  1.35
+gradual warmup lr: 0.0020
+epoch 3, time: 125.59
+	train_loss: 3.39, norm: 5.0723, score: 48.71
+	eval score: 47.75 (100.00)
+	entropy:  1.27
+lr: 0.0020
+epoch 4, time: 127.30
+	train_loss: 3.16, norm: 4.0228, score: 51.09
+	eval score: 48.08 (100.00)
+	entropy:  0.63
+lr: 0.0020
+epoch 5, time: 127.11
+	train_loss: 2.97, norm: 3.4992, score: 53.38
+	eval score: 48.48 (100.00)
+	entropy:  0.50
+lr: 0.0020
+epoch 6, time: 128.33
+	train_loss: 2.81, norm: 3.5061, score: 55.20
+	eval score: 48.91 (100.00)
+	entropy:  0.47
+lr: 0.0020
+epoch 7, time: 129.47
+	train_loss: 2.67, norm: 3.0845, score: 57.32
+	eval score: 49.75 (100.00)
+	entropy:  0.35
+lr: 0.0020
+epoch 8, time: 129.09
+	train_loss: 2.56, norm: 3.2746, score: 59.44
+	eval score: 50.02 (100.00)
+	entropy:  0.62
+lr: 0.0020
+epoch 9, time: 130.33
+	train_loss: 2.44, norm: 3.0632, score: 61.91
+	eval score: 50.66 (100.00)
+	entropy:  1.03
+lr: 0.0020
+epoch 10, time: 129.58
+	train_loss: 2.34, norm: 3.1100, score: 64.61
+	eval score: 51.47 (100.00)
+	entropy:  1.45
+lr: 0.0020
+epoch 11, time: 130.60
+	train_loss: 2.24, norm: 3.3054, score: 66.68
+	eval score: 51.76 (100.00)
+	entropy:  1.79
+lr: 0.0020
+epoch 12, time: 129.63
+	train_loss: 2.15, norm: 3.2940, score: 68.71
+	eval score: 52.48 (100.00)
+	entropy:  2.01
+lr: 0.0020
+epoch 13, time: 129.84
+	train_loss: 2.06, norm: 3.2795, score: 70.48
+	eval score: 53.64 (100.00)
+	entropy:  2.12
+lr: 0.0020
+epoch 14, time: 129.65
+	train_loss: 1.98, norm: 3.3836, score: 72.31
+	eval score: 53.07 (100.00)
+	entropy:  2.22
+decreased lr: 0.0005
+epoch 15, time: 131.70
+	train_loss: 1.83, norm: 2.9400, score: 74.38
+	eval score: 54.48 (100.00)
+	entropy:  2.47
+lr: 0.0005
+epoch 16, time: 133.15
+	train_loss: 1.75, norm: 2.8480, score: 75.50
+	eval score: 54.79 (100.00)
+	entropy:  2.40
+decreased lr: 0.0001
+epoch 17, time: 133.46
+	train_loss: 1.69, norm: 2.7450, score: 76.35
+	eval score: 54.72 (100.00)
+	entropy:  2.44
+decreased lr: 0.0000
+epoch 18, time: 133.71
+	train_loss: 1.67, norm: 2.7153, score: 76.59
+	eval score: 54.91 (100.00)
+	entropy:  2.44
+decreased lr: 0.0000
+epoch 19, time: 133.07
+	train_loss: 1.66, norm: 2.6901, score: 76.60
+	eval score: 54.90 (100.00)
+	entropy:  2.44
+Final epoch 19, time: 133.08, test evaluation
+	test score: 77.48

@@ -1,0 +1,47 @@
+#LXMERT model
+Composto de LXRT encoder (# lxrt.entry.LXRTEncoder -> LXRTFeatureExtraction -> LXRTModel) +
+Camada de classificacao
+
+("--llayers", default=9, type=int, help='Number of Language layers')
+("--xlayers", default=5, type=int, help='Number of CROSS-modality layers.')
+("--rlayers", default=5, type=int, help='Number of object Relationship layers.')
+
+	##LXRTEncoder 
+	Prepara o formato adequado da imagem e dos tokens.
+
+
+	## LXRTFeatureExtraction 
+	Modelo baseado em BERT
+	Recebe as imagens e a pergunta como entrada no formato adequado
+	Retorna (lang_feats, visn_feats) processado
+	
+	## LXRTModel
+	Recebe as informações do LXRTFeatureExtraction
+	Realiza uma tarefa de pooling e attention cruxada
+	Retorna as features em sequencia  <- dimensão das features 768 
+
+# VQA Answer heads
+Uma camada Linear
+GeLU para não-linearizacao
+Camada de Normalizacao
+E predição
+
+
+## Metodologia
+Limitar tamanho de palavra em 20 tokens
+36 objetos por imagem
+
+Treinamento scratch (sem carregar o pretreinado LXMERT) com xlayer, rlayer, llyayer = 1
+Treinamento scratch (sem carregar o pretreinado LXMERT) com xlayer = 5, rlayer = 5, llyayer = 9
+	Igual o baseline do paper
+Treinamento pretreinado LXMERT com xlayer = 5, rlayer = 5, llyayer = 9
+
+obs : quando é de treinamento scratch, o modelo carrega os pesos do BERT pretreinado por default
+
+## Metricas
+Acuracia e acuracia por tipo de questão
+
+#DATASET treinamento
+Use 19755 data from splits train
+Use 6279 data from splits val
+
