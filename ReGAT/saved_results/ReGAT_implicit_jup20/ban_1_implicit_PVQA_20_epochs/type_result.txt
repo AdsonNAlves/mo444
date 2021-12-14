@@ -1,0 +1,8 @@
+2021-12-10 15:18:52.202909type where:	cnt=1316	acc=0.7675
+type what:	cnt=8083	acc=0.7615
+type how:	cnt=362	acc=0.7707
+type how many/how much:	cnt=67	acc=0.7313
+type when:	cnt=31	acc=0.8710
+type why:	cnt=71	acc=0.7183
+type who/whose:	cnt=21	acc=0.6667
+type yes/no:	cnt=9804	acc=0.7605

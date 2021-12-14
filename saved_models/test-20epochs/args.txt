@@ -1,1 +1,0 @@
-Namespace(batch_size=128, cos=True, epochs=20, gamma=8, gpu=0, img_v='', input=None, lr=0.01, multiGPUs=False, num_hid=1280, op='c', output='saved_models/pvqa/pre', qa_bl=False, seed=1204, start_epoch=1, task='pvqa', tfidf=False, train='train', use_both=False, use_vg=False, val='val', workers=0, world_size=1)
